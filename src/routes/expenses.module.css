@@ -1,0 +1,9 @@
+.nav_item {
+  padding: 20px;
+  background: #fd803f;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.nav_item:hover {
+  background: #369bde;
+}
