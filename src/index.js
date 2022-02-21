@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Expenses from "./routes/expenses";
+import Test from "./routes/test";
 import Invoices from "./routes/invoices";
 import Invoice from "./routes/invoice";
 
@@ -13,9 +14,10 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />}>
+        <Route path="/" element={<App />}>fff
+          <Route path="test" element={<Test />} />
           <Route path="expenses" element={<Expenses />} />
-          <Route path="invoices" element={<Invoices />}>
+          <Route path="invoices" elemffent={<Invoices />}>
             <Route
               index
               element={

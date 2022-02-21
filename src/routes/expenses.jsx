@@ -6,7 +6,9 @@ const containerStyle = {
     marginTop: "20px"
 };
 
-/* 一是引入css  二是事件响应 三是state和props */
+// 一是引入css  二是事件响应 三是state和props
+// 一是from受控组件 二是状态提升 三是function组件如何实现state的hooks useState  
+// 一是use Effect hook 二是 effect hook 与class的区别 三是比照antd封装一两个组件，分别用class和function
 // 仿照antd的navbar
 const arr = ['nav1', 'nav2', 'nav3', 'nav4', 'nav5'];
 
